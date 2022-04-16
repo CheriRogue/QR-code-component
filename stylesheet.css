@@ -137,15 +137,53 @@ table {
   --Dark-blue: hsl(218, 44%, 22%);
 }
 
-* {
+/* * {
   box-sizing: border-box;
-  min-height: 100%;
+} */
+
+body {
+  font-family: "Outfit", sans-serif;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.container {
+  max-width: 1440px;
+  background-color: var(--Light-gray);
+  display: flex;
+  justify-content: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.wrapper {
+  background-color: var(--White);
+  width: 320px;
+  height: 497px;
+  border-radius: 10px;
+  margin: 85px 27px 85px 28px;
+}
+
+.QR-code img {
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+  margin: 16px 16px;
+}
+
+h1 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  line-height: 28px;
+  color: var(--Dark-blue);
+  margin: 16px 16px;
+}
+
+.text p {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 18px;
+  margin: 16px 32px 40px 32px;
+  color: var(--Grayish-blue);
 }
