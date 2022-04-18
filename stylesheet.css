@@ -137,16 +137,13 @@ table {
   --Dark-blue: hsl(218, 44%, 22%);
 }
 
-/* * {
-  box-sizing: border-box;
-} */
-
 body {
   font-family: "Outfit", sans-serif;
 }
 
 .container {
   max-width: 1440px;
+  height: 800px;
   background-color: var(--Light-gray);
   display: flex;
   justify-content: center;
